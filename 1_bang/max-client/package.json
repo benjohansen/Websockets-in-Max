@@ -1,0 +1,15 @@
+{
+  "name": "max-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "max-client.js",
+  "engines": {
+    "node": ">=16.x"
+  },
+  "scripts": {},
+  "author": "Ben Johansen <ben@benjohansen.com> (https://benjohansen.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^4.6.1"
+  }
+}
