@@ -30,7 +30,14 @@ Each project has the following directories:
 
 ## `web-server` Installation
 
-The web server takes messages from each client and is able to send them out to all connected clients. This web server cannot run on a hosting platform that only allows for static sites; it must be hosted somewhere that supports full stack apps and allows for websockets (we'll use [Glitch.com](https://glitch.com))
+[x] Host these files somewhere that supports full stack apps and allows for websockets (we'll use [Glitch.com](https://glitch.com)). Note: this web server cannot run on a hosting platform that only allows for static sites
+
+The web server takes messages from each client and is able to send them out to all connected clients.
+
+1. download the files from the `web-server` folder
+2. start a new blank Glitch project = https://glitch.new/blank
+3. delete all the default files in Glitch (delete README.md, index.html, script.js, and style.css)
+
 
 1. put the server files (index.js, package.json, and package-lock.json) on Github
 2. imported files into Glitch (new project from import)
