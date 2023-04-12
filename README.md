@@ -30,7 +30,7 @@ Each project has the following directories:
 
 ## `web-server` Installation
 
-[x] Host these files somewhere that supports full stack apps and allows for websockets (we'll use [Glitch.com](https://glitch.com)). Note: this web server cannot run on a hosting platform that only allows for static sites
+- [x] Host these files somewhere that supports full stack apps and allows for websockets (we'll use [Glitch.com](https://glitch.com)). Note: this web server cannot run on a hosting platform that only allows for static sites
 
 The web server takes messages from each client and is able to send them out to all connected clients.
 
