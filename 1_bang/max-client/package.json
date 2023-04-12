@@ -4,11 +4,12 @@
   "description": "",
   "main": "max-client.js",
   "engines": {
-    "node": ">=16.x"
+    "node": ">=16.x",
+    "npm": ">=7.x"
   },
   "scripts": {},
   "author": "Ben Johansen <ben@benjohansen.com> (https://benjohansen.com/)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "socket.io-client": "^4.6.1"
   }

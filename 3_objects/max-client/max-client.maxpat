@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1364.0, 192.0, 1053.0, 760.0 ],
+		"rect" : [ 204.0, 100.0, 1053.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -482,8 +482,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1281,7 +1279,7 @@
 			}
 , 			{
 				"name" : "max-client.js",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/_web-to-max/_max-websockets/part3_objects/max-client",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/_web-to-max/_max-websockets/3_objects/max-client",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

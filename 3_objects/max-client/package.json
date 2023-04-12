@@ -8,7 +8,7 @@
   },
   "scripts": {},
   "author": "Ben Johansen <ben@benjohansen.com> (https://benjohansen.com/)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "socket.io-client": "^4.6.1"
   }

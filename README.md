@@ -21,7 +21,7 @@ These example projects show how to use websockets (Socket.io) to send data back 
 Each project has the following directories:
 
 
-| Directory            | Explanation              |
+| Directory            | Location to Install      |
 | -------------------- | ------------------------ |
 | web&#x2011;server/   | host these files somewhere that supports full stack hosting and allows for websockets (we'll use [Glitch.com](https://glitch.com)) |
 | web&#x2011;client/   | host these files on a web server (we'll use [W3Schools Spaces](https://www.w3schools.com/spaces/)) |
@@ -30,7 +30,7 @@ Each project has the following directories:
 
 ## `web-server` Installation
 
-The web server takes messages from each client and is able to send them out to all connected clients. This web server cannot run on a hosting platform that only allows for static sites. The files in the `web-server` folder must be hosted somewhere that supports full stack apps and allows for websockets (we'll use [Glitch.com](https://glitch.com))
+The web server takes messages from each client and is able to send them out to all connected clients. This web server cannot run on a hosting platform that only allows for static sites; it must be hosted somewhere that supports full stack apps and allows for websockets (we'll use [Glitch.com](https://glitch.com))
 
 1. put the server files (index.js, package.json, and package-lock.json) on Github
 2. imported files into Glitch (new project from import)

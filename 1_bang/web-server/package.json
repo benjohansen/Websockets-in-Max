@@ -2,16 +2,17 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "web-server.js",
   "engines": {
-    "node": ">=16.x"
+    "node": ">=16.x",
+    "npm": ">=7.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node web-server.js"
   },
   "author": "Ben Johansen",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "socket.io": "^4.6.1"
