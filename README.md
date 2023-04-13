@@ -1,5 +1,6 @@
 <p align="center">
 	<img src="https://docs.cycling74.com/nodeformax/api/n4m-icon.png" width="200" height="200" alt="Node For Max">
+    <img src="https://socket.io/images/logo.svg" width="200" height="200" alt="Socket.io">
 </p>
 
 # Websockets in Max (Tutorials)
@@ -52,19 +53,13 @@ Host these files on space you rent on a web server that allows for running stati
 Keep these files on the computer running [Max by Cycling '74](https://cycling74.com/products/max).
 
 1. Open the `max-client.maxpat` file in Max.
-2. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder)
-3. 
-2. make sure you do *not* install the "max-api" library via npm install max-api ... Max will give you the following: "Error: It appears that you installed the 'max-api' package from npm. This leads to undesired behaviour and errors. Please remove the package using 'npm uninstall max-api'."
-- dictionaries in Max are nearly the same as JSON and JS objects which all deal key:value pairs ... I think it is safe to say dictionaries are JSON and can be viewed as JSON, but not all JSON files can be dictionaries ... here's what matters for this project:
-    - dictionaries in Max? = keys cannot be repeated and must be in double quotes (not single) becauase they must be strings
-        - when you send a dictionary into node.script, node.script will automatically convert it to js object (Max documentation says JSON)
-    - JSON keys have to be in double quotes (not single) because they must be strings, are sequencial ordered and thus can be repeated
-        - JSON is a standard - it exists as a string ... and must be parsed into an object for the key-value pairs to be referenced in code
-    - JS object keys don't have to be in quotes (but can), can reference functions and can contain new functions
+2. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
+3. click on the `script start` message to run the JavaScript file held by [node.script]
 
-    the max-api converts dictionaries sent into [node.script] to js objects
-Socket.io converts js objects behind the scenes to JSON when they are sent, then converts them back to objects when received
-so, code all JS assuming js objects
+Note: for the `JS Objects! [dict]` project = code within the JavaScript file using js objects - here's why =
+- the max-api converts dictionaries sent into [node.script] to js objects
+- Socket.io converts js objects behind the scenes to JSON when they are sent, then converts them back to objects when received
+- the max-api converts js objects to dictionaries when sending js objects out [node.script]
 
 
 # References
