@@ -1,8 +1,10 @@
 // add CDN for socket.io and link to this file in index.html header
 
+
 // Variables
-const serverURL = "wss://bony-superb-chronometer.glitch.me";
-                // use http://localhost:3000 if running server on your computer
+const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me";  // make sure you EDIT THIS!
+                                                               // use http://localhost:3000
+                                                               // if running server locally
 let socketID = "";
 let randomR, randomG, randomB;
 

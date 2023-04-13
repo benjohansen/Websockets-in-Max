@@ -1,9 +1,10 @@
 const { io } = require("socket.io-client"); // for Max, use CommonJS import
 const maxApi = require("max-api");          // for Max, use CommonJS import
 
-const serverURL = "wss://bony-superb-chronometer.glitch.me";
-// use http://localhost:3000 if running server on your computer
-
+// Variables
+const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me";  // make sure you EDIT THIS!
+                                                               // use http://localhost:3000
+                                                               // if running server locally
 // Client Initialization
 const socket = io(serverURL);
 
@@ -16,6 +17,7 @@ socket.on("connect", () => {
 socket.on("bang", () => {
     maxApi.outletBang();
 });
+
 
 // SEND
 
