@@ -4,7 +4,9 @@
 
 # Websockets in Max (Tutorials)
 
-These example projects show how to use websockets (Socket.io) to send data back and forth between Max and a website over the internet (where the computer(s) running Max and device(s) access the website can be in different parts of the world). Each project builds upon the last. Check out the [***YouTube Tutorials***]().
+These example projects show how to use websockets (Socket.io) to send data back and forth between Max and a website over the internet (computers running Max and devices accessing the website can be in different parts of the world). Each project builds upon the last. 
+
+Check out the [***YouTube Tutorials***]().
 
 ## List of Projects
 
@@ -20,30 +22,34 @@ These example projects show how to use websockets (Socket.io) to send data back 
 
 Download this entire repository.
 
-Each project directory has the same file structure: `web-server`, `web-client`, and `max-client` directories with all the files you need.
+Each project directory has the same file structure (`web-server`, `web-client`, and `max-client` directories) with all the files you need for that individual project.
 
 ## `web-server` Installation
 ---
 > The web server simply listens for messages each connected client sends and is able to send them out to all connected clients (including Max).
 
-Host these files somewhere that supports full stack apps (not just static sites) and allows for websockets (we'll use [Glitch.com](https://glitch.com)).
+Host these files somewhere that supports full stack apps (not just static sites) and allows for websockets (we'll use a free option = [Glitch.com](https://glitch.com)).
 
 1. start a new blank Glitch project = https://glitch.new/blank
 2. delete all the default files in Glitch (delete README.md, index.html, script.js, and style.css)
 3. drag into the Glitch project all the files from the `web-server` folder (web-server.js, package.json, and package-lock.json)
 4. Glitch will automatically install the correct packages for Socket.io as specified in `package.json`
+5. you are done with creating the web server!
 
 
 ## `web-client` Installation
 ---
 > The web client enables users to send messages from the browser (from any device) to the web server.
 
-Host these files on space you rent on a web server that allows for running static websites (we'll use [W3Schools Spaces](https://www.w3schools.com/spaces/), but other places you could host these files include Hostinger, Bluehost, SiteGround, etc.).
+Host these files on space you rent on a web server that allows for running static websites (we'll use a free option = [W3Schools Spaces](https://www.w3schools.com/spaces/), but other places you could host these files include Hostinger, Bluehost, SiteGround, etc.).
 
-1. I put the app.js and index.html on isoundart.com and it works!
-2. I can also open the index.html file (with app.js in same folder) on my local browser from my computer and it works!
-
-
+1. create a "Basic" blank space = https://spaces.w3schools.com/createspace
+2. delete all the default files in the W3Schools Space (index.html, README.md, script.js, and style.css)
+3. upload (click "upload to root") all the files in the `web-client` folder (cycling74.png, index.html, and web-client.js)
+4. edit the `web-client.js` file so that the `serverURL` variable is equal to the URL of the server you are running on Glitch.com
+```javascript
+const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
+```
 
 ## `max-client` Installation
 ---
@@ -53,13 +59,18 @@ Keep these files on the computer running [Max by Cycling '74](https://cycling74.
 
 1. Open the `max-client.maxpat` file in Max.
 2. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
-3. click on the `script start` message to run the JavaScript file held by [node.script]
+3. edit the `web-client.js` file so that the `serverURL` variable is equal to the URL of the server you are running on Glitch.com
+```javascript
+const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
+```
+4. click on the `script start` message to run the JavaScript file held by [node.script]
 
-Note: for the `JS Objects! [dict]` project = code within the JavaScript file using js objects - here's why =
+# JS Objects
+
+Code within the JavaScript files using js objects (rather than JSON) - here's why =
 - the max-api converts dictionaries sent into [node.script] to js objects
 - Socket.io converts js objects behind the scenes to JSON when they are sent, then converts them back to objects when received
 - the max-api converts js objects to dictionaries when sending js objects out [node.script]
-
 
 # References
 I could not have figured this out without nuggets from the following sources.
