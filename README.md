@@ -1,7 +1,5 @@
 <p align="center">
-	<img src="https://docs.cycling74.com/nodeformax/api/n4m-icon.png" width="200" height="200" alt="Node For Max">
-    <img src="plus.png" width="83" height="200" alt="Socket.io">
-    <img src="socketio.png" width="200" height="200" alt="Socket.io">
+    <img src="n4m-plus-socketio.png" width="75%" alt="Socket.io">
 </p>
 
 # Websockets in Max (Tutorials)
