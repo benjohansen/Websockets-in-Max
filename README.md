@@ -46,10 +46,10 @@ Host these files on space you rent on a web server that allows for running stati
 1. create a "Basic" blank space = https://spaces.w3schools.com/createspace
 2. delete all the default files in the W3Schools Space (index.html, README.md, script.js, and style.css)
 3. upload (click "upload to root") all the files in the `web-client` folder (cycling74.png, index.html, and web-client.js)
-4. edit the `web-client.js` file so that the `serverURL` variable is equal to the URL of the server you are running on Glitch.com
-```javascript
-const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
-```
+4. edit the `web-client.js` file with the URL of the server 
+    ```javascript
+    const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
+    ```
 
 ## `max-client` Installation
 ---
@@ -59,10 +59,10 @@ Keep these files on the computer running [Max by Cycling '74](https://cycling74.
 
 1. Open the `max-client.maxpat` file in Max.
 2. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
-3. edit the `web-client.js` file so that the `serverURL` variable is equal to the URL of the server you are running on Glitch.com
-```javascript
-const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
-```
+3. edit the `web-client.js` file with the URL of the server 
+    ```javascript
+    const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
+    ```
 4. click on the `script start` message to run the JavaScript file held by [node.script]
 
 # JS Objects
