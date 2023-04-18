@@ -47,9 +47,10 @@ Host these files on space you rent on a web server that allows for running stati
 2. delete all the default files in the W3Schools Space (index.html, README.md, script.js, and style.css)
 3. upload (click "upload to root") all the files in the `web-client` folder (cycling74.png, index.html, and web-client.js)
 4. edit the `web-client.js` file with the URL of your server running on Glitch.com
-    ```javascript
+    ```javascript {.line-numbers}
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
+5. you are done with the web client! ... move on installing the 
 
 ## `max-client` Installation
 
