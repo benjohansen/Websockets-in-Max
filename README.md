@@ -48,14 +48,14 @@ Host these files somewhere that supports full stack apps (not just static sites)
 
 Host these files on space you rent on a web server that allows for running static websites (we'll use a free option = [W3Schools Spaces](https://www.w3schools.com/spaces/), but other places you could host these files include Hostinger, Bluehost, SiteGround, etc.).
 
-1. create a "Basic" blank space = https://spaces.w3schools.com/createspace
-2. delete all the default files in the W3Schools Space (index.html, README.md, script.js, and style.css)
-3. upload (click "upload to root") all the files in the `web-client` folder (cycling74.png, index.html, and web-client.js)
-4. edit the `web-client.js` file with the URL of your server running on Glitch.com
+6. create a "Basic" blank space = https://spaces.w3schools.com/createspace
+7. delete all the default files in the W3Schools Space (index.html, README.md, script.js, and style.css)
+8. upload (click "upload to root") all the files in the `web-client` folder (cycling74.png, index.html, and web-client.js)
+9. edit the `web-client.js` file with the URL of your server running on Glitch.com
     ```javascript
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
-5. you are done with the web client! ... move on installing the 
+10. you are done with the web client! ... move on installing the 
 
 <p>&nbsp;</p>
 
@@ -65,14 +65,15 @@ Host these files on space you rent on a web server that allows for running stati
 
 Keep these files on the computer running [Max by Cycling '74](https://cycling74.com/products/max).
 
-1. Open the `max-client.maxpat` file in Max.
-2. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
-3. edit the `web-client.js` file with the URL of your server running on Glitch.com
+11. Open the `max-client.maxpat` file in Max.
+12. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
+13. edit the `web-client.js` file with the URL of your server running on Glitch.com
     ```javascript
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
-4. click on the `script start` message to run the JavaScript file held by [node.script]
-5. now you are ready to talk between the browser on any device and Max!
+14. click on the `script start` message to run the JavaScript file held by [node.script]
+
+:clap: now you are ready navigate to the domain where you installed the `web-client` and send data to Max and get data from Max!
 
 <p>&nbsp;</p>
 
