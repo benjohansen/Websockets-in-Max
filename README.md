@@ -73,7 +73,9 @@ Keep these files on the computer running [Max by Cycling '74](https://cycling74.
     ```
 14. click on the `script start` message to run the JavaScript file held by [node.script]
 
-:clap: now you are ready navigate to the domain where you installed the `web-client` and send data to Max and get data from Max!
+<p align="center">:clap::clap::clap:</p>
+
+Now you are ready navigate to the domain where you installed the `web-client` and send data to Max and get data from Max!
 
 <p>&nbsp;</p>
 
