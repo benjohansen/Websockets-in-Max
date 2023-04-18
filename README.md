@@ -1,10 +1,10 @@
 <p align="center">
-    <img src="n4m-plus-socketio.png" width="75%" alt="Socket.io">
+    <img src="n4m-plus-socketio.png" width="75%" alt="node for max and socket.io">
 </p>
 
 # Websockets in Max (Tutorials)
 
-These example projects show how to use websockets (Socket.io) to send data back and forth between Max and a website over the internet (computers running Max and devices accessing the website can be in different parts of the world). Each project builds upon the last. 
+These example projects show how to use websockets (Socket.io) to send data back and forth between Max and a website over the internet (computers running Max and devices accessing the website can be in different parts of the world). Each project builds upon the last.
 
 Check out the [***YouTube Tutorials***]().
 
