@@ -18,11 +18,15 @@ Check out the [***YouTube Tutorials***]().
     - a more advanced chat
     - send objects (dictionaries) back and forth between a website and Max
 
+<p>&nbsp;</p>
+
 # Installation
 
 Download this entire repository.
 
-Each project directory has the same file structure (`web-server`, `web-client`, and `max-client` directories) with all the files you need for that individual project.
+Each project directory has the same directory structure (`web-server`, `web-client`, and `max-client`) with all the files you need for that individual project.
+
+<p>&nbsp;</p>
 
 ## `web-server` Installation
 
@@ -36,6 +40,7 @@ Host these files somewhere that supports full stack apps (not just static sites)
 4. Glitch will automatically install the correct packages for Socket.io as specified in `package.json`
 5. you are done with creating the web server!
 
+<p>&nbsp;</p>
 
 ## `web-client` Installation
 
@@ -47,10 +52,12 @@ Host these files on space you rent on a web server that allows for running stati
 2. delete all the default files in the W3Schools Space (index.html, README.md, script.js, and style.css)
 3. upload (click "upload to root") all the files in the `web-client` folder (cycling74.png, index.html, and web-client.js)
 4. edit the `web-client.js` file with the URL of your server running on Glitch.com
-    ```javascript {.line-numbers}
+    ```javascript
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
 5. you are done with the web client! ... move on installing the 
+
+<p>&nbsp;</p>
 
 ## `max-client` Installation
 
@@ -65,22 +72,25 @@ Keep these files on the computer running [Max by Cycling '74](https://cycling74.
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
 4. click on the `script start` message to run the JavaScript file held by [node.script]
+5. now you are ready to talk between the browser on any device and Max!
 
-# JS Objects
+<p>&nbsp;</p>
 
-Code within the JavaScript files using js objects (rather than JSON) - here's why =
-- the max-api converts dictionaries sent into [node.script] to js objects
-- Socket.io converts js objects behind the scenes to JSON when they are sent, then converts them back to objects when received
-- the max-api converts js objects to dictionaries when sending js objects out [node.script]
+# JavaScript Objects
+
+I advice you to use js objects within your JavaScript files for the following reasons =
+- within Max: the max-api converts dictionaries sent into [node.script] into js objects
+- Socket.io converts js objects behind the scenes to JSON when they are sent, then converts them back to js objects when received
+- within Max: the max-api converts js objects into dictionaries when sending js objects out [node.script]
+
+<p>&nbsp;</p>
 
 # References
 I could not have figured this out without nuggets from the following sources.
 - Thanks to @garciadelcastillo in his [Hosting a WebSocket Server on Glitch](https://youtu.be/eLPhUFHKm0M) YouTube tutorial, I finally understood how to break free of the local network
 - [WebSockets in 100 Seconds & Beyond with Socket.io](https://youtu.be/1BfCnjr_Vjg)
 - [This YouTube video](https://youtu.be/fG4dkrlaZAA?t=311) clearly explains websockets
-    - - the server knows who is connected to it at all times (establishing connections that persist)
 - How Socket.io works = https://socket.io/get-started/chat#integrating-socketio
-
 
 # LICENSE
 
@@ -88,4 +98,4 @@ I could not have figured this out without nuggets from the following sources.
 
 # Bug reports
 
-Please report bugs with the petra package on the GitHub [issues](https://github.com/benjohansen/Websockets-in-Max/issues) tracker.
+Please report bugs on the GitHub [issues](https://github.com/benjohansen/Websockets-in-Max/issues) tracker.
