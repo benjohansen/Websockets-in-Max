@@ -22,9 +22,9 @@ Check out the [***YouTube Tutorials***]().
 
 # Installation
 
-Download this entire repository.
+1. [Download this entire repository](https://github.com/benjohansen/Websockets-in-Max/archive/refs/heads/main.zip).
 
-Each project directory has the same directory structure (`web-server`, `web-client`, and `max-client`) with all the files you need for that individual project.
+> Each project directory has the same directory structure (`web-server`, `web-client`, and `max-client`) with all the files you need for that individual project.
 
 <p>&nbsp;</p>
 
@@ -34,11 +34,12 @@ Each project directory has the same directory structure (`web-server`, `web-clie
 
 Host these files somewhere that supports full stack apps (not just static sites) and allows for websockets (we'll use a free option = [Glitch.com](https://glitch.com)).
 
-1. start a new blank Glitch project = https://glitch.new/blank
-2. delete all the default files in Glitch (delete README.md, index.html, script.js, and style.css)
-3. drag into the Glitch project all the files from the `web-server` folder (web-server.js, package.json, and package-lock.json)
-4. Glitch will automatically install the correct packages for Socket.io as specified in `package.json`
-5. you are done with creating the web server!
+2. start a new blank Glitch project = https://glitch.new/blank
+3. delete all the default files (delete README.md, index.html, script.js, and style.css)
+4. drag into the Glitch project all the files from the `web-server` folder (web-server.js, package.json, and package-lock.json)
+5. Glitch will automatically install the correct packages for Socket.io as specified in `package.json`
+6. note the title of the Glitch project
+7. you are done with creating the web server!
 
 <p>&nbsp;</p>
 
@@ -48,14 +49,14 @@ Host these files somewhere that supports full stack apps (not just static sites)
 
 Host these files on space you rent on a web server that allows for running static websites (we'll use a free option = [W3Schools Spaces](https://www.w3schools.com/spaces/), but other places you could host these files include Hostinger, Bluehost, SiteGround, etc.).
 
-6. create a "Basic" blank space = https://spaces.w3schools.com/createspace
-7. delete all the default files in the W3Schools Space (index.html, README.md, script.js, and style.css)
-8. upload (click "upload to root") all the files in the `web-client` folder (cycling74.png, index.html, and web-client.js)
-9. edit the `web-client.js` file with the URL of your server running on Glitch.com
+8. create a "Basic" blank space = https://spaces.w3schools.com/createspace
+9. delete all the default files in the W3Schools Space (index.html, README.md, script.js, and style.css)
+10. upload (click "upload to root") all the files in the `web-client` folder (cycling74.png, index.html, and web-client.js)
+11. edit the `web-client.js` file with the URL of your server running on Glitch.com
     ```javascript
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
-10. you are done with the web client! ... move on installing the 
+12. you are done with the web client! ... move on installing the 
 
 <p>&nbsp;</p>
 
@@ -65,13 +66,13 @@ Host these files on space you rent on a web server that allows for running stati
 
 Keep these files on the computer running [Max by Cycling '74](https://cycling74.com/products/max).
 
-11. Open the `max-client.maxpat` file in Max.
-12. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
-13. edit the `web-client.js` file with the URL of your server running on Glitch.com
+13. Open the `max-client.maxpat` file in Max.
+14. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
+15. edit the `web-client.js` file with the URL of your server running on Glitch.com
     ```javascript
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
-14. click on the `script start` message to run the JavaScript file held by [node.script]
+16. click on the `script start` message to run the JavaScript file held by [node.script]
 
 <p align="center">:clap::clap::clap:</p>
 
