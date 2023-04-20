@@ -26,8 +26,8 @@ socket.on("message", (message) => {
 
 // SEND
 
-maxApi.addHandler(maxApi.MESSAGE_TYPES.BANG, async () => {
-	await socket.emit("bang");
+maxApi.addHandler("bang", () => {
+	socket.emit("bang");
 });
 
 maxApi.addHandler("message", (message) => { // text from Max prepended with "message"

@@ -96,6 +96,10 @@ I could not have figured this out without nuggets from the following sources.
 - [WebSockets in 100 Seconds & Beyond with Socket.io](https://youtu.be/1BfCnjr_Vjg)
 - [This YouTube video](https://youtu.be/fG4dkrlaZAA?t=311) clearly explains websockets
 - How Socket.io works = https://socket.io/get-started/chat#integrating-socketio
+- [Node for Max Core Examples](https://github.com/Cycling74/n4m-core-examples)
+- [More Node for Max Examples](https://github.com/Cycling74/n4m-examples)
+
+<p>&nbsp;</p>
 
 # LICENSE
 

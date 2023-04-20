@@ -21,6 +21,6 @@ socket.on("bang", () => {
 
 // SEND
 
-maxApi.addHandler(maxApi.MESSAGE_TYPES.BANG, async () => {
-	await socket.emit("bang");
+maxApi.addHandler("bang", () => {
+	socket.emit("bang");
 });

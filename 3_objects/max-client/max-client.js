@@ -29,8 +29,8 @@ socket.on("message", myJSobj => {
 
 // SEND
 
-maxApi.addHandler(maxApi.MESSAGE_TYPES.BANG, async () => {
-	await socket.emit("bang");
+maxApi.addHandler("bang", () => {
+	socket.emit("bang");
 });
 
 // Getting and setting dicts is an asynchronous process and API function calls all return a Promise.
