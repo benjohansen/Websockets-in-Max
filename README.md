@@ -56,7 +56,8 @@ Host these files on space you rent on a web server that allows for running stati
     ```javascript
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
-12. you are done with the web client! ... move on installing the 
+12. note the URL of the space by clicking on the "share" button in the top right of the preview view
+13. you are done with the web client! ... move on installing the 
 
 <p>&nbsp;</p>
 
