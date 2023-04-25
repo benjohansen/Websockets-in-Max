@@ -30,7 +30,7 @@ Check out the [***YouTube Tutorials***]().
 
 ## `web-server` Installation
 
-> The web server simply listens for messages each connected client sends and is able to send them out to all connected clients (including Max).
+> The web server simply listens for (receives) messages (named events containing data) each connected client sends and is able to send them out to all connected clients (including Max).
 
 Host these files somewhere that supports full stack apps (not just static sites) and allows for websockets (we'll use a free option = [Glitch.com](https://glitch.com)).
 
