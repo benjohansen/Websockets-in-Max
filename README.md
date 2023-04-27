@@ -68,11 +68,11 @@ Host these files on space you rent on a web server that allows for running stati
 Keep these files on the computer running [Max by Cycling '74](https://cycling74.com/products/max).
 
 13. Open the `max-client.maxpat` file in Max.
-14. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
-15. edit the `web-client.js` file with the URL of your server running on Glitch.com
+14. edit the `web-client.js` file with the URL of your server running on Glitch.com
     ```javascript
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
+15. click on the `script npm install` message within the Max patch to install the socket.io-client library dependencies found in the `package.json` file (this will create a `node_modules` folder) ... the next time you open this max patch, you do not need to click the `script npm install` message.
 16. click on the `script start` message to run the JavaScript file held by [node.script]
 
 <p align="center">:clap::clap::clap:</p>
