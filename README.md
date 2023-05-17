@@ -68,7 +68,7 @@ Host these files on space you rent on a web server that allows for running stati
 Keep these files on the computer running [Max by Cycling '74](https://cycling74.com/products/max).
 
 13. Open the `max-client.maxpat` file in Max.
-14. edit the `web-client.js` file with the URL of your server running on Glitch.com
+14. double click on the [node.script] object so you can edit the `web-client.js` file with the URL of your server running on Glitch.com
     ```javascript
     const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me"; 
     ```
