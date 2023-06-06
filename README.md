@@ -6,7 +6,7 @@
 
 These example projects show how to use websockets (Socket.io) to send data back and forth between Max and a website over the internet (computers running Max and devices accessing the website can be in different parts of the world). Each project builds upon the last.
 
-Check out the [***YouTube Tutorial***](https://www.youtube.com/watch?v=Xj7eQqtiQew) !!!
+# Check out the [***YouTube Tutorial***](https://www.youtube.com/watch?v=Xj7eQqtiQew) !!!
 
 ## List of Projects
 
