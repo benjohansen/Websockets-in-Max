@@ -352,8 +352,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 495.5, 688.0150772714303, 299.0, 51.69133422704067 ],
 					"style" : "default",
-					"tabmode" : 0,
-					"text" : "sdfasdf"
+					"tabmode" : 0
 				}
 
 			}
@@ -697,24 +696,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 238.0, 309.70641149847097, 143.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict going-into-nodescript"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -772,24 +753,6 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 238.0, 588.0, 328.0, 22.0 ],
 					"text" : "dict.unpack id: color: fromMax: message:"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 238.0, 559.146794250764515, 163.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict coming-out-of-nodescript"
 				}
 
 			}
@@ -941,13 +904,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
 					"midpoints" : [ 365.5, 458.0, 630.0, 458.0, 630.0, 345.0, 651.0, 345.0 ],
 					"source" : [ "obj-110", 1 ]
@@ -991,7 +947,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
+					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1212,13 +1168,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-110", 0 ],
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"midpoints" : [ 639.0, 110.20641149847097, 505.0, 110.20641149847097 ],
 					"source" : [ "obj-50", 0 ]
@@ -1241,7 +1190,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1271,6 +1220,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "cycling74.png",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/_web-to-max/_max-websockets/3_objects/max-client",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "fit_jweb_to_bounds.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",

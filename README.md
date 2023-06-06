@@ -6,21 +6,25 @@
 
 These example projects show how to use websockets (Socket.io) to send data back and forth between Max and a website over the internet (computers running Max and devices accessing the website can be in different parts of the world). Each project builds upon the last.
 
-Check out the [***YouTube Tutorials***]().
+Check out the [***YouTube Tutorial***](https://www.youtube.com/watch?v=Xj7eQqtiQew) !!!
 
 ## List of Projects
 
-1. [Bang!](./part1_bang) ... [***YouTube Tutorial***]()
+1. [Bang!](./part1_bang) ... [***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=338s)
     - send bangs back and forth between a website and Max
-2. [Simple Chat](./part2_simple-chat/) ... [***YouTube Tutorial***]()
+2. [Simple Chat](./part2_simple-chat/) ... [***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=375s)
     - send messages back and forth between a website and Max
-3. [JS Objects! [dict]](./part3_objects/) ... [***YouTube Tutorial***]()
+3. [JS Objects! [dict]](./part3_objects/) ... [***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=411s)
     - a more advanced chat
     - send objects (dictionaries) back and forth between a website and Max
 
 <p>&nbsp;</p>
 
 # Installation
+
+Setup instructions starts [here in the Youtube Video Tutorial](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=338s).
+
+<p>&nbsp;</p>
 
 1. [Download this entire repository](https://github.com/benjohansen/Websockets-in-Max/archive/refs/heads/main.zip).
 

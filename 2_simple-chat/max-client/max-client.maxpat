@@ -69,8 +69,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 238.0, 656.0150772714303, 299.0, 51.69133422704067 ],
 					"style" : "default",
-					"tabmode" : 0,
-					"text" : "sdfasdf"
+					"tabmode" : 0
 				}
 
 			}
@@ -483,8 +482,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,

@@ -2,7 +2,7 @@ const { io } = require("socket.io-client"); // for Max, use CommonJS import
 const maxApi = require("max-api");          // for Max, use CommonJS import
 
 // Variables
-const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me";  // make sure you EDIT THIS!
+const serverURL = "wss://objects-objects-objects.glitch.me";  // make sure you EDIT THIS!
                                                                // use http://localhost:3000
                                                                // if running server locally
 let socketID = "";
@@ -36,6 +36,5 @@ maxApi.addHandler("bang", () => {
 // Getting and setting dicts is an asynchronous process and API function calls all return a Promise.
 // We use the async/await syntax here in order to handle the async behaviour gracefully.
 maxApi.addHandler(maxApi.MESSAGE_TYPES.DICT, async (myDict) => {
-	maxApi.post(`from Max patch: ${typeof myDict}`); // proves maxApi converts dictionaries to objects
-    await socket.emit("message", myDict );
+    await socket.emit("message", myDict ); // note: maxApi converts dictionaries to objects
 });
