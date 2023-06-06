@@ -33,7 +33,7 @@ Setup instructions starts [here in the Youtube Video Tutorial](https://www.youtu
 <p>&nbsp;</p>
 
 ## `web-server` Installation
-[***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=338s)
+[***YouTube Setup web-server***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=338s)
 
 > The web server simply listens for (receives) messages (named events containing data) each connected client sends and is able to send them out to all connected clients (including Max).
 
@@ -49,7 +49,7 @@ Host these files somewhere that supports full stack apps (not just static sites)
 <p>&nbsp;</p>
 
 ## `web-client` Installation
-[***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=375s)
+[***YouTube Setup web-client***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=375s)
 
 > The web client enables users to send messages from the browser (from any device) to the web server.
 
@@ -68,7 +68,7 @@ Host these files on space you rent on a web server that allows for running stati
 <p>&nbsp;</p>
 
 ## `max-client` Installation
-[***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=411s)
+[***YouTube Setup max-client***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=411s)
 
 > Max acts as just another client (just like the web client) able to send and receive messages to/from the web server.
 
