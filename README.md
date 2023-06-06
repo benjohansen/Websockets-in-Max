@@ -10,17 +10,17 @@ Check out the [***YouTube Tutorial***](https://www.youtube.com/watch?v=Xj7eQqtiQ
 
 ## List of Projects
 
-1. [Bang!](./part1_bang) ... [***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=338s)
+1. [Bang!](./part1_bang) ... [***YouTube - How this Bang Project Works***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=461s)
     - send bangs back and forth between a website and Max
-2. [Simple Chat](./part2_simple-chat/) ... [***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=375s)
+2. [Simple Chat](./part2_simple-chat/) ... [***YouTube - How this Simple Chat Works***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=653s)
     - send messages back and forth between a website and Max
-3. [JS Objects! [dict]](./part3_objects/) ... [***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=411s)
+3. [JS Objects! [dict]](./part3_objects/) ... [***YouTube - How sending JS Objects Works***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=757s)
     - a more advanced chat
     - send objects (dictionaries) back and forth between a website and Max
 
 <p>&nbsp;</p>
 
-# Installation
+# Installation (Setup)
 
 Setup instructions starts [here in the Youtube Video Tutorial](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=338s).
 
@@ -33,6 +33,7 @@ Setup instructions starts [here in the Youtube Video Tutorial](https://www.youtu
 <p>&nbsp;</p>
 
 ## `web-server` Installation
+[***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=338s)
 
 > The web server simply listens for (receives) messages (named events containing data) each connected client sends and is able to send them out to all connected clients (including Max).
 
@@ -48,6 +49,7 @@ Host these files somewhere that supports full stack apps (not just static sites)
 <p>&nbsp;</p>
 
 ## `web-client` Installation
+[***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=375s)
 
 > The web client enables users to send messages from the browser (from any device) to the web server.
 
@@ -66,6 +68,7 @@ Host these files on space you rent on a web server that allows for running stati
 <p>&nbsp;</p>
 
 ## `max-client` Installation
+[***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=411s)
 
 > Max acts as just another client (just like the web client) able to send and receive messages to/from the web server.
 

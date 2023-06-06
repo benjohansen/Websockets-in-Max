@@ -1,1 +1,5 @@
-# How To Connect [Node for Max] ⇆ WEBSITE | Part 3: JS Objects! [dict] (Socket.io)
+# JS Objects! [dict]
+    - [***YouTube Setup Video***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=338s)
+    - [***YouTube - How sending JS Objects Works***](https://www.youtube.com/watch?v=Xj7eQqtiQew&t=757s)
+    - a more advanced chat
+    - send objects (dictionaries) back and forth between a website and Max
