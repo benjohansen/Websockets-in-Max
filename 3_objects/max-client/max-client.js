@@ -2,7 +2,7 @@ const { io } = require("socket.io-client"); // for Max, use CommonJS import
 const maxApi = require("max-api");          // for Max, use CommonJS import
 
 // Variables
-const serverURL = "wss://objects-objects-objects.glitch.me";  // make sure you EDIT THIS!
+const serverURL = "wss://YOUR-GLITCH-PROJECT-NAME.glitch.me";  // make sure you EDIT THIS!
                                                                // use http://localhost:3000
                                                                // if running server locally
 let socketID = "";
